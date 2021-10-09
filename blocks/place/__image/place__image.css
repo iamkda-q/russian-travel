@@ -3,3 +3,10 @@
   height: calc(46000vw / 1280);
   object-fit: contain;
 }
+
+@media screen and (max-width: 1024px) {
+  .place__image {
+    max-width: calc(44000vw / 1024);
+    height: calc(44000vw / 1024);
+  }
+}

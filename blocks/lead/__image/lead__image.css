@@ -1,7 +1,7 @@
 .lead__image {
   margin: 0;
   width: 100%;
-  height: calc(61500vw / 1280);
+  min-height: calc(61500% / 984);
   object-fit: contain;
   object-position: center;
 }

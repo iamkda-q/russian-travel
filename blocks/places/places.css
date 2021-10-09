@@ -1,7 +1,13 @@
 .places {
-  margin: 0;
-  padding: 0 calc(14800vw / 1280);
+  margin: 0 auto;
+  width: calc(98400vw / 1280);
 /*   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(2, min-content); */
+}
+
+@media screen and (max-width: 1024px) {
+  .places {
+    width: calc(92800vw / 1024);
+  }
 }
