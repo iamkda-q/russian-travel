@@ -25,4 +25,10 @@
   width: 100%;
   height: 100%;
   z-index: -1;
+  transition: opacity 0.25s linear;
 }
+
+.cover__background:hover::after {
+  opacity: 0.8;
+}
+
