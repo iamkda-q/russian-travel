@@ -1,0 +1,12 @@
+.place {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 0.975fr 1.025fr;
+  grid-template-rows: repeat(2, min-content);
+  gap: 48px 40px;
+  margin-bottom: 80px;
+}
+
+.place:last-of-type {
+  margin-bottom: 0;
+}

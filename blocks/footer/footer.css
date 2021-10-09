@@ -1,0 +1,9 @@
+.footer {
+  margin: 0 auto;
+  display: grid;
+  width: calc(118400vw / 1280);
+  grid-template-columns: minmax(50px, min-content)  minmax(57px, min-content)  minmax(94px, min-content)
+                         minmax(86px, min-content)  minmax(106px, min-content) 1fr;
+  column-gap: 18px;
+  padding-bottom: 24px;
+}

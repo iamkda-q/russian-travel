@@ -1,0 +1,5 @@
+.place__image {
+  max-width: calc(46000vw / 1280);
+  height: calc(46000vw / 1280);
+  object-fit: contain;
+}

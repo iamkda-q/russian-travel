@@ -1,0 +1,7 @@
+.cover {
+  width: calc(118400vw / 1280);
+  padding: calc(9200vw / 1280) 0;
+  margin: 0 auto;
+  height: calc(74000vw / 1280);
+}
+
