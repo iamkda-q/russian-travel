@@ -5,3 +5,19 @@
   font-size: 72px;
   line-height: 1.056;
 }
+
+@media screen and (max-width: 768px) {
+  .place__title {
+    max-width: calc(34000vw / 768);
+    font-size: 42px;
+    line-height: 1.1;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__title {
+    max-width: calc(28800vw / 320);
+    font-size: 32px;
+    line-height: 1.09;
+  }
+}

@@ -13,3 +13,15 @@
     padding-top: 48px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .lead {
+    width: calc(72000vw / 768);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead {
+    width: calc(28800vw / 320);
+  }
+}

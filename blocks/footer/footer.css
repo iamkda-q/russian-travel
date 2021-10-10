@@ -13,3 +13,18 @@
     width: calc(92800vw / 1024);
   }
 }
+
+@media screen and (max-width: 768px) {
+  .footer {
+    width: calc(72000vw / 768);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    width: calc(28800vw / 320);
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 24px) 30px;
+    row-gap: 32px;
+  }
+}
