@@ -2,7 +2,7 @@
   justify-self: start;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 680px) {
   .header__logo {
     max-width: 142px;
     height: 42px;
