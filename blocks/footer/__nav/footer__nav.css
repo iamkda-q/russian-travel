@@ -1,0 +1,18 @@
+.footer__nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: minmax(50px, min-content)  minmax(57px, min-content)  minmax(94px, min-content)
+                         minmax(86px, min-content)  minmax(106px, min-content);
+  column-gap: 18px;
+}
+
+
+@media screen and (max-width: 680px) {
+  .footer__nav {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 24px);
+    row-gap: 32px;
+  }
+}

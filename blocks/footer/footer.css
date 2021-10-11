@@ -2,8 +2,7 @@
   margin: 0 auto;
   display: grid;
   width: calc(118400vw / 1280);
-  grid-template-columns: minmax(50px, min-content)  minmax(57px, min-content)  minmax(94px, min-content)
-                         minmax(86px, min-content)  minmax(106px, min-content) 1fr;
+  grid-template-columns: 1fr 1fr;
   column-gap: 18px;
   padding-bottom: 24px;
 }
@@ -24,7 +23,7 @@
   .footer {
     width: calc(28800vw / 320);
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, 24px) 30px;
+    grid-template-rows: 1fr 30px;
     row-gap: 32px;
   }
 }

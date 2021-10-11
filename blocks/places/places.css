@@ -23,3 +23,11 @@
     width: calc(28800vw / 320);
   }
 }
+
+@media screen and (max-width: 320px) {
+  .places {
+    width: 100%;
+    margin: 0;
+  }
+}
+
