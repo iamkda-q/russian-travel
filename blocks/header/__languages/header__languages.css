@@ -1,0 +1,10 @@
+.header__languages {
+  justify-self: end;
+  margin-bottom: 6px;
+}
+
+@media screen and (max-width: 680px) {
+  .header__languages  {
+    margin-bottom: 8px;
+  }
+}

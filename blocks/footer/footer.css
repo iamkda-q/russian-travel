@@ -1,13 +1,13 @@
 .footer {
   margin: 0 auto;
   display: grid;
-  width: calc(118400vw / 1280);
+  max-width: 1184px;
   grid-template-columns: 1fr 1fr;
   column-gap: 18px;
   padding-bottom: 24px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1190px) {
   .footer {
     width: calc(92800vw / 1024);
   }

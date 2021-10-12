@@ -7,21 +7,16 @@
 /* страничка page */
 @import url(../blocks/page/page.css);
 
-/* line */
-@import url(../blocks/line/line.css);
-@import url(../blocks/line/__languages/line__languages.css);
-
 /* header */
 @import url(../blocks/header/header.css);
-@import url(../blocks/page/__header/page__header.css);
 @import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__languages/header__languages.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__lang-link/_selected/header__lang-link_selected.css);
 
 /* lead */
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__image/lead__image.css);
-@import url(../blocks/lead/__map/lead__map.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
@@ -64,6 +59,3 @@
 @import url(../blocks/footer/__nav/footer__nav.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-
-/* для будущих подключений */
-@import url(../);

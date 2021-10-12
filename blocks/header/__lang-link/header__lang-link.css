@@ -1,9 +1,9 @@
 .header__lang-link {
   margin: 0;
+  margin-right: 18px;
   font-weight: normal;
   font-size: 24px;
   line-height: 1.17;
-  margin-bottom: 6px;
   text-decoration: none;
   color: #fff;
   transition: opacity 0.1s linear;
@@ -13,10 +13,13 @@
   opacity: 0.8;
 }
 
+.header__lang-link:last-of-type {
+  margin-right: 0;
+}
+
 @media screen and (max-width: 680px) {
   .header__lang-link  {
     font-size: 18px;
     line-height: 1.11;
-    margin-bottom: 8px;
   }
 }
