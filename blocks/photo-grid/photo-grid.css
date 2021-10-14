@@ -27,7 +27,7 @@
   .photo-grid {
     grid-template-columns: 1fr;
     grid-gap: 12px 0;
-    width: calc(28800vw / 320);
+    max-width: calc(28800vw / 320);
     padding: 64px calc(1600vw / 320);
   }
 }
